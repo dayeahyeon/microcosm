@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abc</title>
+    <link rel="stylesheet" href="layout.css">
+    <script src="jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+    
+    
+</head>
+
+<body>
+
+
+<div class="text-container">
+  <span class="text1">My microcosm</span>
+  <span class="text2">나의 소우주</span>
+</div>
+
+<div class="title">소우주</div>
+
+
+
+
+
+
+<div class="video-container">
+    <video class="background-video" loop muted autoplay >
+        <source src="video/background.MOV"
+    </video>    
+</div>
+
+
+
+<div class="contents-box">
+
+
+  <div class="content-wrapper" id="contentA">
+    <img src="img/me1.jpg" alt="a" class="content-image" style="filter:url(#filter3)">
+      <div class="content-text">
+        <span><em>나</em></span>
+            <p>
+             이름 : 현다예  <br>
+             생년월일 : 2002년 8월 14일 <br>
+             거주지 : 서울시 도봉구 <br>
+             학교 : 서울시립대학교 시각디자인학과 재학 중 <br>
+             MBTI : ENTP 
+            </p>
+      </div>
+  </div>
+
+  <div class="content-wrapper" id="contentB" style="display: none;">
+
+
+      <div class="student">
+        <img src="img/student.jpg" alt="">
+        <img src="img/student2.jpg" alt="">
+        <img src="img/student3.jpg" alt="">
+      </div>
+    
+   
+    <div class="content-text">
+      <br><span><em>과거</em></span>
+      <p>길었던 입시시절</p>
+    </div>
+  </div>
+
+  <div class="content-wrapper" id="contentC" style="display: none;">
+
+
+    <div class="now">
+      <img src="img/now1.png" alt="">
+      <img src="img/now2.PNG" alt="">
+      <img src="img/now3.PNG" alt="">
+      <img src="img/now4.jpg" alt="">
+    </div>
+  
+ 
+  <div class="content-text">
+    <br><span><em>현재</em></span>
+    <p>시립대학교 시각디자인학과</p>
+  </div>
+</div>
+
+<div class="content-wrapper" id="contentD" style="display: none;">
+
+
+  <div class="seoulmate">
+    <img src="img/seoulmate1.png" alt="">
+    <img src="img/seoulmate2.png" alt="">
+    <img src="img/seoulmate3.png" alt="">
+ 
+  </div>
+
+
+<div class="content-text">
+  <br><span><em>서울메이트</em></span>
+  <p></p>
+</div>
+</div>
+
+
+
+
+
+  <div class="content-wrapper" id="contentE" style="display: none;">
+    <div class="travel">
+      <img src="img/travel1.jpg" alt="">
+      <img src="img/travel2.jpg" alt="">
+      <img src="img/travel3.jpg" alt="">
+      <img src="img/travel4.jpg" alt="">
+   
+    </div>
+  
+  
+  <div class="content-text">
+    <br><span><em>여행</em></span>
+    <p>스페인, 일본, 대만, 이탈리아, 영국, 독일, 프랑스 ... 베트남 및 미국 예정</p>
+  </div>
+  </div>
+
+  <div class="content-wrapper" id="contentF" style="display: none;">
+    <div class="camera">
+      <img src="img/camera1.jpg" alt="">
+      <img src="img/camera2.jpg" alt="">
+      <img src="img/camera3.jpg" alt="">
+      <img src="img/camera4.jpg" alt="">
+    </div>
+  
+  
+      <div class="content-text">
+        <span><em>필름카메라</em></span>
+        <p></p>
+      </div>
+  </div>
+
+
+  <div class="content-wrapper" id="contentI" style="display: none;">
+    <img src="img/rah1.jpg" alt="">
+    <iframe src="//www.youtube.com/embed/3XqWA1T85Co" width=300px; height=200px></iframe>
+    <div class="content-text">
+      <span><em>Rah</em></span>
+    </div>
+  </div>
+  
+
+  <div class="content-wrapper" id="contentH" style="display: none;">
+    <div class="season">
+      <img src="img/season.png" alt="">
+      <img src="img/season3.png" alt="">
+      <img src="img/season2.png" alt="">
+      <img src="img/season4.png" alt="">
+    </div>
+  
+  
+      <div class="content-text">
+        <span><em>사계</em></span>
+        <p></p>
+      </div>
+  </div> 
+
+ 
+
+  <div class="content-wrapper" id="contentJ" style="display: none;">
+    <div class="shft">
+      <img src="img/shft1.jpg" alt="">
+      <img src="img/shft2.jpg" alt="">
+      <img src="img/shft3.JPG" alt="">
+      <img src="img/shft4.JPG" alt="">
+      <img src="img/shft5.jpg" alt="">
+    </div>
+  
+  
+      <div class="content-text">
+        <span><em>SHFT</em></span>
+        <p></p>
+      </div>
+  </div>
+
+  <div class="content-wrapper" id="contentK" style="display: none;">
+    <div class="ending">
+      <img src="img/ending1.jpg" alt="">
+      <img src="img/ending2.jpg" alt="">
+      <img src="img/ending3.jpg" alt="">
+    </div>
+  
+  
+      <div class="content-text">
+        <br> 
+        <span><em>내가 생각하는 문화예술교육</em></span>
+          <p>
+            여행을 가고싶어했던 나는 교환학생 봉사동아리를 들어갔다. <br>
+            그 경험은 나중에 여행을 떠날 때 많은 도움이 되었다.  <br>
+            여행을 하며 필름카메라라는 새로운 취미를 발견했다. <br>
+            사진찍는 취미가 생긴 나는 전공수업에서 사진을 활용한 과제를 시도했다. <br> <br>
+            춤추는 것을 좋아하는 나는 춤 동아리에 들어갔다.  <br>
+            내가 잘할 수 있는 디자인으로 춤 동아리의 공연 포스터를 만들었다. <br>
+            이것을 계기로 서울시립대학교 총학생회에서 학교를 위한 홍보물 디자인을 했다. <br>
+            지금은 Shft라는 디자인팀 안에서 또 새로운 것들을 시도하고자한다. <br>
+            지금도 교양수업 속에서 내가 할 수 있는 것을 찾아 접목했다. <br><br>
+            좋아하는 것을 시도하고 그 안에서 내가 잘할 수 있는 것을 찾고 그것들을 연결하니 많은 경험을 할 수 있었다. <br>
+            이러한 경험과 기억들이 모여 더 나은 나를 만든다.<br><br>
+            <em style="color:yellow">아직 자신의 명확한 취미나 관심사, 좋아하는 것이 무엇인지 찾지못한 이들을 위한 문화예술교육을 떠올렸다. 평소 자주 듣던 노래 한곡, 시선을 끌던 그림 한 점, 자주 보던 영화 한 편, 기억에 남던 글귀 한줄도 괜찮다. 자신의 일상을 되돌아 보고 그것들을 기록하는 시간을 가지고, 그 중 가장 흥미롭고 좋아하는 것을 소재로 예술활동으로 발전시키는 것은 어떨까? </em>
+           </p>
+      </div>
+  </div>
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="image-container">
+
+
+  <div class="image-item" data-content="contentA">
+      <img src="img/me1.jpg" alt="">
+      <p>나</p>
+  </div>
+
+
+
+  <div class="image-item" data-content="contentB">
+      <img src="img/student.jpg" alt="">
+      <p>과거</p>
+  </div>
+
+
+  <div class="image-item" data-content="contentC">
+      <img src="img/now1.png" alt="">
+      <p>현재</p>
+  </div>
+
+
+  <div class="image-item" data-content="contentD">
+    <img src="img/seoulmate1.png" alt="">
+    <p>서울메이트</p>
+  </div>
+
+
+  <div class="image-item" data-content="contentE">
+    <img src="img/travel1.jpg" alt="">
+    <p>여행</p>
+  </div>
+
+
+  <div class="image-item" data-content="contentF">
+    <img src="img/camera1.jpg" alt="">
+    <p>필름카메라</p>
+  </div>
+
+
+  <div class="image-item" data-content="contentI">
+    <img src="img/rah1.jpg" alt="">
+    <p>Rah</p>
+  </div>
+
+ 
+
+  <div class="image-item" data-content="contentH">
+    <img src="img/season.png" alt="">
+    <p>사계</p>
+  </div>
+
+
+  <div class="image-item" data-content="contentJ">
+    <img src="img/shft1.jpg" alt="">
+    <p>Shft</p>
+  </div>
+
+
+
+  <div class="image-item" data-content="contentK">
+    <img src="img/m.png" alt="">
+    <p>문화예술교육</p>
+    </div>
+  </div>
+
+  
+  
+
+  <div class="text-container2">
+    <span class="reset"><em>돌아가기</em></span>
+  </div>
+
+</div>
+
+
+
+<svg>
+    <filter id="filter1" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+        <feFlood flood-color="#000000" flood-opacity="0.50" x="0%" y="0%" result="flood"/>
+        <feBlend mode="normal" x="0%" y="0%" in="SourceGraphic" in2="flood" result="blend1"/>
+        <feImage class="ditherImage" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA5ElEQVQYlQXBgQbCUABA0fdrk0ySSZJJkiRJMjOTTGZmkiRJZiYzyczMzGQmfdrtHPH7/TgcDuR5zna7pWka9vs9aZqyXq8R0+mU5/OJoihcLhfG4zFBENDtdjmdToj3+81yueTz+WCaJnEcM5/PKcsSXdcRsizjeR6j0YjH40Gr1cJxHAaDAbfbDVHXNbvdjiRJWK1WfL9fLMsiyzI2mw1CVVV836fT6XA8HplMJoRhSK/X43w+I6IoYjabURQFmqbxer1YLBZUVYVhGAhJkrBtm36/z/V6pd1u47ouw+GQ+/3OH4/Fn8FvF/NxAAAAAElFTkSuQmCC" x="0" y="0" width="10" height="10" crossOrigin="anonymous" result="image1"/>
+        <feTile x="0" y="0"  in="image1" result="tile"/>
+        <feBlend mode="overlay" x="0%" y="0%"  in="blend1" in2="tile" result="blend2"/>
+        <feColorMatrix type="saturate" values="0.8" />
+        <feComponentTransfer>
+            <feFuncR type="discrete" tableValues="0 0.2 2"/>
+            <feFuncG type="discrete" tableValues="0 0.2 3"/>
+            <feFuncB type="discrete" tableValues="0 0.5"/>
+        </feComponentTransfer>
+    </filter>
+
+    <filter id="filter2" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+      <feFlood flood-color="#000000" flood-opacity="0.50" x="0%" y="0%" result="flood"/>
+      <feBlend mode="normal" x="0%" y="0%" in="SourceGraphic" in2="flood" result="blend1"/>
+      <feImage class="ditherImage" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA5ElEQVQYlQXBgQbCUABA0fdrk0ySSZJJkiRJMjOTTGZmkiRJZiYzyczMzGQmfdrtHPH7/TgcDuR5zna7pWka9vs9aZqyXq8R0+mU5/OJoihcLhfG4zFBENDtdjmdToj3+81yueTz+WCaJnEcM5/PKcsSXdcRsizjeR6j0YjH40Gr1cJxHAaDAbfbDVHXNbvdjiRJWK1WfL9fLMsiyzI2mw1CVVV836fT6XA8HplMJoRhSK/X43w+I6IoYjabURQFmqbxer1YLBZUVYVhGAhJkrBtm36/z/V6pd1u47ouw+GQ+/3OH4/Fn8FvF/NxAAAAAElFTkSuQmCC" x="0" y="0" width="20" height="20" crossOrigin="anonymous" result="image1"/>
+      <feTile x="0" y="0"  in="image1" result="tile"/>
+      <feBlend mode="overlay" x="0%" y="0%"  in="blend1" in2="tile" result="blend2"/>
+      <feColorMatrix type="saturate" values="0.8" />
+      <feComponentTransfer>
+          <feFuncR type="discrete" tableValues="0 0.5"/>
+          <feFuncG type="discrete" tableValues="0 0.5"/>
+          <feFuncB type="discrete" tableValues="0 0.5"/>
+      </feComponentTransfer>
+  </filter>
+
+  <filter id="filter3" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+    <feFlood flood-color="#000000" flood-opacity="0.50" x="0%" y="0%" result="flood"/>
+    <feBlend mode="normal" x="0%" y="0%" in="SourceGraphic" in2="flood" result="blend1"/>
+    <feImage class="ditherImage" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA5ElEQVQYlQXBgQbCUABA0fdrk0ySSZJJkiRJMjOTTGZmkiRJZiYzyczMzGQmfdrtHPH7/TgcDuR5zna7pWka9vs9aZqyXq8R0+mU5/OJoihcLhfG4zFBENDtdjmdToj3+81yueTz+WCaJnEcM5/PKcsSXdcRsizjeR6j0YjH40Gr1cJxHAaDAbfbDVHXNbvdjiRJWK1WfL9fLMsiyzI2mw1CVVV836fT6XA8HplMJoRhSK/X43w+I6IoYjabURQFmqbxer1YLBZUVYVhGAhJkrBtm36/z/V6pd1u47ouw+GQ+/3OH4/Fn8FvF/NxAAAAAElFTkSuQmCC" x="0" y="0" width="4" height="4" crossOrigin="anonymous" result="image1"/>
+    <feTile x="0" y="0"  in="image1" result="tile"/>
+    <feBlend mode="overlay" x="0%" y="0%"  in="blend1" in2="tile" result="blend2"/>
+    <feColorMatrix type="saturate" values="0.8" />
+    <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 0.5"/>
+        <feFuncG type="discrete" tableValues="0 0.5"/>
+        <feFuncB type="discrete" tableValues="0 0.5"/>
+    </feComponentTransfer>
+</filter>
+
+<filter id="filter4" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+  <feFlood flood-color="#000000" flood-opacity="0.50" x="0%" y="0%" result="flood"/>
+  <feBlend mode="normal" x="0%" y="0%" in="SourceGraphic" in2="flood" result="blend1"/>
+  <feImage class="ditherImage" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA5ElEQVQYlQXBgQbCUABA0fdrk0ySSZJJkiRJMjOTTGZmkiRJZiYzyczMzGQmfdrtHPH7/TgcDuR5zna7pWka9vs9aZqyXq8R0+mU5/OJoihcLhfG4zFBENDtdjmdToj3+81yueTz+WCaJnEcM5/PKcsSXdcRsizjeR6j0YjH40Gr1cJxHAaDAbfbDVHXNbvdjiRJWK1WfL9fLMsiyzI2mw1CVVV836fT6XA8HplMJoRhSK/X43w+I6IoYjabURQFmqbxer1YLBZUVYVhGAhJkrBtm36/z/V6pd1u47ouw+GQ+/3OH4/Fn8FvF/NxAAAAAElFTkSuQmCC" x="0" y="0" width="4" height="4" crossOrigin="anonymous" result="image1"/>
+  <feTile x="0" y="0"  in="image1" result="tile"/>
+  <feBlend mode="overlay" x="0%" y="0%"  in="blend1" in2="tile" result="blend2"/>
+  <feColorMatrix type="saturate" values="0.8" />
+  <feComponentTransfer>
+      <feFuncR type="discrete" tableValues="0 2"/>
+      <feFuncG type="discrete" tableValues="0 2"/>
+      <feFuncB type="discrete" tableValues="0 2"/>
+  </feComponentTransfer>
+</filter>
+</svg>
+
+</body>
+</html>
+
+
+
